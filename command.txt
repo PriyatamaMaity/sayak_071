@@ -1,0 +1,84 @@
+ass7: hostwebec2:
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install nginx
+SFTP login
+cd ..
+cd ..
+cd var
+cd www
+sudo chmod 777 html
+cd html
+
+ass8:
+git bash: git init
+          git remote add origin " GITHUBlink"
+          git add .
+          git commit -m "First commit"
+          git branch -M master
+          git push -u origin master
+new folder
+   git init
+   git clone "paste GitHub code"
+ASS 9:projectfromgit2ec2
+      sudo apt-get update
+     sudo apt-get upgrade
+      sudo apt-get install nginx
+     git clone paste GitHub code
+     ls
+     cd aws
+     ls
+     curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+     sudo apt-get install node.js // sudo apt install nodejs
+     npm  install
+     ls
+     node index.js
+     git pull
+ASS10:projectfromgit2ec2withsecurity
+#!/bin/bash
+apt-get update
+apt-get upgrade
+apt-get install -y nginx
+systemctl start nginx
+systemctl enable nginx
+apt-get install -y git
+curl -sL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+apt-get install -y nodejs
+git clone https://github.com/KrishnaYadav162/krishna_repo.git
+cd krishna_repo
+npm install 
+node index.js
+
+comm: git clone paste code
+      cd aws
+      ls 
+     sudo apt install nodejs
+     npm install
+     node index.js
+ASS 11:AUTOSCALE
+  connect
+  nano infill.sh
+while true
+do
+ echo "Looping"
+done
+ chmod 777 infill.sh
+./infill.sh
+ASS12:
+cd ../..
+ls
+cd etc
+cd nginx
+ls
+cd sites_available
+nano default
+sudo systemct1 restart nginx
+code:
+proxy_pass http://localhost:4000;
+proxy_http_version 1.1;
+proxy_set_header Upgrade $http_upgrade;
+proxy_set_header Connection 'Upgrade';
+proxy_set_header Host Shot;
+proxy_cache_bypass $http_upgrade;
+ 
+
